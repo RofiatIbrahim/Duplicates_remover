@@ -1,0 +1,6 @@
+Number = [5, 4, 7, 4, 2, 2, 4, 6, 1, 1, 3] 
+unique = [] 
+for number in Number: 
+  if number not in unique: 
+    unique.append(number) 
+print (unique) 
